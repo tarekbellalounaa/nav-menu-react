@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  display:flex;
+  justify-content: space-around;
+  color:black;
+  width:50%;
+  margin:auto;
+  font-weight:bold;
+  border-bottom: 5px solid blue;
+  text-decoration: none;
+  list-style: none;
+}
+.App a{
+  text-decoration: none;
+ 
+}
+.option{
+  display:none;
+  position: absolute;
+  list-style: none;
+  padding: 10px 2px;
+  text-align: left ;
+  }
+ .blue{
+   color:blue;
+ }
+ .black{
+   color:black;
+ }
+ 
+.bloc{
+  position: relative;
+  width:20%;
+}
+.bloc:hover .option{
+  display:block;
+}
+.bloc a {
+  text-decoration: none;
+}
+.bloc:hover .option{ display: block;
+  border: 5px solid blue; 
+  
+}
